@@ -33,7 +33,9 @@ Documentation can be found in the **[wiki][]** which you can help extending.
 License
 -------
 
-The program is licensed under the terms of the [Simplified (2-cluase) BSD License][license]) as approved by the Open Source Initiative.
+The program is licensed under the terms of the
+[Simplified (2-cluase) BSD License][license] as approved by the Open Source
+Initiative.
 
   [license]: http://opensource.org/licenses/BSD-2-Clause "Simplified (2-cluase) BSD License"
 
