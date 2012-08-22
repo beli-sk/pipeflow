@@ -1,0 +1,7 @@
+#ifndef __CONFIG_H
+#define __CONFIG_H
+
+#define VERSION "${VERSION}"
+#define BUILD_TYPE "${CMAKE_BUILD_TYPE}"
+
+#endif // ndef __CONFIG_H

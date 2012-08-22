@@ -1,0 +1,10 @@
+Pipe Flow Meter
+
+Installation
+
+  cmake .
+  make
+
+as root
+
+  make install
