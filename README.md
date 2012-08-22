@@ -7,11 +7,7 @@ About
 -----
 
 A command line tool that forwards data from standard input to standard output
-and shows total count and flow rate. Can be plugged in a pipe like
-
-    bzip2 -c file | pipeflow > file.bz2
-
-See examples for more use cases.
+and shows total count and flow rate.
 
 Intended audience: unix/linux systems administrators, developers, those who
 use the command line.
