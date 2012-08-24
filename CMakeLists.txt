@@ -12,14 +12,6 @@ ELSE()
    SET(CMAKE_BUILD_TYPE Release CACHE STRING "type of build (None Debug Release RelWithDebInfo MinSizeRel)")
 ENDIF()
 
-# mark with SVN revision if building for debug
-find_package(Subversion)
-if(Subversion_FOUND AND NOT CMAKE_BUILD_TYPE STREQUAL "Release")
-	Subversion_WC_INFO(${CMAKE_CURRENT_SOURCE_DIR} ER)
-	set(SUBVERSION_REVISION ${ER_WC_REVISION})
-	set(VERSION "${VERSION}-debug${SUBVERSION_REVISION}")
-endif()
-
 project (pipeflow)
 
 # compiler flags
